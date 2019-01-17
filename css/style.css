@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'ProximaNova';
+     src: url('../fonts/ProximaNova-Light.eot');
+     src: url('../fonts/ProximaNova-Light.woff') format('woff'),
+          url('../fonts/ProximaNova-Light.ttf') format('truetype');
+     font-weight: 300;
+     font-style: normal;
+ }
+
+@font-face {
+    font-family: 'ProximaNova';
+     src: url('../fonts/ProximaNova-Regular.eot');
+     src: url('../fonts/ProximaNova-Regular.woff') format('woff'),
+          url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'ProximaNova';
+     src: url('../fonts/ProximaNova-Bold.eot');
+     src: url('../fonts/ProximaNova-Bold.woff') format('woff'),
+          url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+     font-weight: bold;
+     font-style: normal;
+ }
+
+ h1, h2, h3, h4 p, span{
+     padding: 0px;
+     margin: 0px;
+ }
+
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ .CCHero{
+     background: url(../img/CCHeroBanner.png) no-repeat 50% 50%;
+     background-size: cover;
+ }
+
+ .CCHero nav{
+    padding-top: 15px;
+ }
+
+ .CCHero .navbar-toggle {
+    margin-top: 20px;
+}
+
+ .CCHero .navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 6px;
+    border-radius: 1px;
+    background: white;
+}
+
+ .CCHero nav .navbar-nav{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+ }
+
+ .CCHero nav ul li a{
+     color: #fff;
+     font-family: 'ProximaNova';
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 19px;
+     /* padding: 10px 22px; */
+ }
+
+.CCHero nav ul li a:hover{
+    background: transparent;
+}
+
+.CCHero .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+     background-color: transparent;
+}
+
+.CCHero .dropdown-menu li a {
+    color: #000000;
+    padding: 0.6em 2em;
+}
+
+.CCHero .dropdown-menu li a:hover {
+    color: #2784BE;
+}
+
+ .CCHero nav ul li .CCHeroBookNowBtn{
+    font-family: 'ProximaNova';
+    background: #2784BE;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    padding: 14px 34px;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.09);
+    border-radius: 100px;
+ }
+ 
+ .CCHero nav ul li .CCHeroBookNowBtn:hover{
+     background: #0769A7;
+}
+
+ .CCHero .CCHeroContent{
+     padding: 75px 0 83px 0;
+ }
+ 
+ .CCHero .CCHeroContent h1{
+     font-family: 'ProximaNova';
+     font-weight: bold;
+     color: #fff;
+     font-size: 48px;
+     line-height: 60px;
+     padding-top: 30px;
+ }
+
+ .CCHero .CCHeroContent p{
+    font-family: 'ProximaNova';
+    font-weight: 300;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 14px 0 4px 0;
+}
+
+.CCHero .CCHeroContent hr{
+    width: 50px;
+}
+
+.CCHero .CCHeroContent .CCHeroReview{
+    display: flex;
+    flex-flow: row;
+}
+
+.CCHero .CCHeroContent .CCHeroReview img{
+    align-self: center;
+    margin-bottom: auto;
+    /* height: 100%; */
+}
+
+.CCHero .CCHeroContent .CCHeroReview .CCHeroReviewContent{
+    display: flex;
+    flex-flow: column;
+    margin-left: 16px;
+}
+
+.CCHero .CCHeroContent .CCHeroReview .CCHeroReviewContent img{
+    align-self: center;
+    margin-right: auto;
+}
+
+.CCHero .CCHeroContent .CCHeroReview .CCHeroReviewContent p{
+    font-family: 'ProximaNova';
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 0 4px 0;
+}
+
+.CCHero .CCHeroContent .CCHeroReview .CCHeroReviewContent p span{
+    color: #FFCD00;
+}
+
+.CCHero .CCHeroContent .HeroFormBox h3{
+    text-align: center;
+    font-family: 'ProximaNova';
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 12px;
+}
+
+.CCHero .CCHeroContent .HeroFormBox .formLineBreaker{
+    width: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #2784BE;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.CCHero .CCHeroContent .HeroFormBox .form-group {
+    margin-bottom: 14px;
+}
+
+.CCHero .CCHeroContent .HeroFormBox{
+    padding: 50px 40px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.10);
+    border-radius: 4px;
+}
+
+.CCHero .CCHeroContent .HeroFormBox .form-control{
+    height: 48px;
+    box-shadow: none;
+}
+
+.CCHero .CCHeroContent .HeroFormBox .form-control:focus{
+    border-color: #2784BE;
+}
+
+.CCHero .CCHeroContent .HeroFormBox .HeroFormBtnBookNow{
+    font-family: 'ProximaNova';
+    background: #2784BE;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    padding: 14px 34px;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.09);
+    border-radius: 2px;
+    border-bottom: 4px solid #0769A7;
+    width: 100%;
+}
+
+.CCHero .CCHeroContent .HeroFormBox .HeroFormBtnBookNow:hover{
+    background: #0769A7;
+}
+
+@media (max-width: 768px){
+
+    .navbar-collapse{
+        background: #ffffff;
+        margin-top: 8px;
+    }
+    .CCHero nav .navbar-nav{
+        display: block;
+        padding-left: 20px;
+    }
+    .CCHero nav ul li a {
+        color: #000000;
+    }
+    .CCHero nav ul li .CCHeroBookNowBtn {
+        width: 139px;
+    }
+    .CCHero nav .navbar-nav {
+        margin-bottom: 33px;
+    }
+/* 
+    .navbar-collapse ul{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .CCHero .CCHeroContent {
+        padding: 50px 0 83px 0;
+    }
+    .CCHero .CCHeroContent h1 {
+        font-size: 34px;
+        line-height: 45px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .CCHero .CCHeroContent p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .CCHero .CCHeroContent hr {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .CCHero .CCHeroContent .CCHeroReview {
+        display: flex;
+        flex-flow: column;
+        padding: 30px 0 15px 0;
+    }
+    .CCHero .CCHeroContent .CCHeroReview .CCHeroReviewContent{
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .CCHero .CCHeroContent .CCHeroReview .CCHeroReviewContent img{
+        margin-right: 0;
+    }
+
+}
